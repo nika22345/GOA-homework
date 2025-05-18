@@ -1,14 +1,14 @@
 #1)#დაწერე პროგრამა, რომელიც while ციკლით დაბეჭდავს რიცხვებს 1-დან 10-მდე.
-count = 10
-while count > 0:
-    print("hello")
-    count = count - 1
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
 #2)დაწერე პროგრამა, რომელიც დაბეჭდავს რიცხვებს 10-დან 1-მდე
 
-count = 1
-while count <= 10:
-    print("hello")
-    count = count + 1
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
 
 #.3)კომენტარებით ახსენი while loop
 
