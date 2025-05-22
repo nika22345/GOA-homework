@@ -21,3 +21,4 @@ print(f"First Name {first_name}")
 
 name = "nika"
 print(f"Gamarjoba {name}Rogor Xar")
+
