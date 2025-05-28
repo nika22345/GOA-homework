@@ -1,15 +1,17 @@
-#შექმენით პროგრამა რომელიც მიიღებს მომხარებლისგან input-ს რიხვის სახით და დაბეჭდეთ ამ რიცხვამდე ყველა რიცხვი თანმიმდევრობით. (For loop)
-number = int(input("Enter a number: "))
+#დავალება: გამოიყენე for ციკლი, რომ დაბეჭდო რიცხვები 1-დან 10-მდე.
 
-for i in range(number + 1):
+
+for i in range(1 , 11, ):
     print(i)
 
+#დაბეჭდე სიტყვა "Hello world" ხუთჯერ, ყოველი დაბეჭდვა ახალ ხაზზე.
 
+for i in range(5):
+    print("Hello world")
 
-#გაალეთეთ მეოთხე დავალება While loop-ის გამოყენებით.
-number = int(input("შეიყვანე რიცხვი: "))
+#გამოიყენე for ციკლი, რომ დაბეჭდო მხოლოდ ლუწი რიცხვები  10.
 
-i = 0
-while i <= number:
+for i in range(2, 11, 2):
     print(i)
-    i += 1
+
+#for loop gamoiyeneba ragaceebis gameoreba

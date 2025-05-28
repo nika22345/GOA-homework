@@ -1,18 +1,41 @@
-#დავალება: გამოიყენე for ციკლი, რომ დაბეჭდო რიცხვები 1-დან 10-მდე.
-
-
-for i in range(1 , 11, ):
+#1)#დაწერე პროგრამა, რომელიც while ციკლით დაბეჭდავს რიცხვებს 1-დან 10-მდე.
+i = 1
+while i <= 10:
     print(i)
+    i += 1
+#2)დაწერე პროგრამა, რომელიც დაბეჭდავს რიცხვებს 10-დან 1-მდე
 
-#დაბეჭდე სიტყვა "Hello world" ხუთჯერ, ყოველი დაბეჭდვა ახალ ხაზზე.
-
-for i in range(5):
-    print("Hello world")
-
-#გამოიყენე for ციკლი, რომ დაბეჭდო მხოლოდ ლუწი რიცხვები  10.
-
-for i in range(2, 11, 2):
+i = 10
+while i >= 1:
     print(i)
+    i -= 1
 
-#for loop gamoiyeneba ragaceebis gameoreba
+#.3)კომენტარებით ახსენი while loop
 
+#while loop aris ragacis usasrulod gaketeba
+
+# 4)დაწერე პროგრამა, რომელიც სთხოვს მომხმარებელს პაროლის შეყვანას. სწორი პაროლია "python123". სანამ სწორად არ შეიყვანს, მოთხოვე თავიდან
+
+password = 'python123'
+
+user_password = input("Enter your password: ")
+
+while user_password != password:
+    print("Incorrect password please try again")
+    user_password = input("Enter your password again: ")
+
+print("Access granted!")
+# 5)მომხმარებელმა უნდა შეიყვანოს რიცხვი n. პროგრამამ while ციკლით უნდა დაითვალოს 1-დან n-მდე რიცხვების ჯამი.
+ 
+
+n = int(input("Enter a number"))
+print("Enter a number")
+
+count = 1
+total = 0
+
+while count<= n:
+    total = total + count
+    count = count + 1
+
+print("sum of numbers from 1 to", n, "is", total)
